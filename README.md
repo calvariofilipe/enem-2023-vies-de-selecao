@@ -186,9 +186,7 @@ Os arquivos podem ser carregados diretamente do GitHub pelo Google Colab, sem a 
 
 A preparação dos dados utiliza Python e pandas, com leitura em blocos de 250 mil registros.
 
-O procedimento poderá ser reproduzido a partir do arquivo original disponibilizado pelo INEP, selecionando as mesmas 16 variáveis e preservando a ordem dos registros.
-
-O notebook auxiliar de preparação documentará esse procedimento. O notebook principal utilizará diretamente os arquivos CSV disponibilizados neste repositório.
+O procedimento poderá ser reproduzido a partir do arquivo original disponibilizado pelo INEP, selecionando as mesmas 16 variáveis e preservando a ordem dos registros. O notebook principal utilizará diretamente os arquivos CSV disponibilizados neste repositório.
 
 ## Finalidade da análise
 
