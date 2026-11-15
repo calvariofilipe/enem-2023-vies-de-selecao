@@ -1,8 +1,10 @@
 # ENEM 2023 — Viés de Seleção Socioeconômico
 
-Este repositório reúne os dados preparados para o MVP de Análise Exploratória e Pré-processamento de Dados da pós-graduação em Ciência de Dados e Analytics da PUC-Rio.
+Este repositório reúne dados provenientes dos **Microdados do ENEM 2023**, disponibilizados publicamente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), preparados para o MVP de Análise Exploratória e Pré-processamento de Dados da pós-graduação em Ciência de Dados e Analytics da PUC-Rio.
 
-O projeto investiga diferenças socioeconômicas entre os inscritos no ENEM 2023 e os participantes com notas disponíveis.
+A partir desses dados, o projeto investiga diferenças socioeconômicas entre o conjunto de inscritos e os participantes com notas disponíveis, examinando como diferentes critérios de seleção podem alterar a composição da população analisada.
+
+O repositório disponibiliza os dados preparados e documenta os procedimentos de extração, seleção de variáveis e organização dos arquivos, permitindo a reprodução da análise.
 
 ## Preparação dos dados
 
