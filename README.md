@@ -1,5 +1,3 @@
-# enem-2023-vies-de-selecao
-
 # ENEM 2023 — Viés de Seleção Socioeconômico
 
 Este repositório reúne os dados preparados para o MVP de Análise Exploratória e Pré-processamento de Dados da pós-graduação em Ciência de Dados e Analytics da PUC-Rio.
