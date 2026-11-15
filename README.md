@@ -12,7 +12,7 @@ Por essa razão, o procedimento de preparação é **documentado neste README, c
 
 ### 1. Obtenção da base original
 
-Os dados foram obtidos no [portal de microdados do INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem), selecionando a edição de 2023.
+Os dados foram obtidos no https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem, selecionando a edição de 2023.
 
 Após o download e a extração do arquivo ZIP, utilizamos o arquivo:
 
