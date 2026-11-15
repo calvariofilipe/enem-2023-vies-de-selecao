@@ -2,9 +2,11 @@
 
 Este repositório reúne dados provenientes dos **Microdados do ENEM 2023**, disponibilizados publicamente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), preparados para o MVP de Análise Exploratória e Pré-processamento de Dados da pós-graduação em Ciência de Dados e Analytics da PUC-Rio.
 
-A partir desses dados, o projeto investiga diferenças socioeconômicas entre o conjunto de inscritos e os participantes com notas disponíveis, examinando como diferentes critérios de seleção podem alterar a composição da população analisada.
+O projeto investiga diferenças socioeconômicas entre o conjunto de inscritos e os participantes com notas disponíveis, examinando como diferentes critérios de seleção podem alterar a composição da população analisada.
 
-O repositório disponibiliza os dados preparados e documenta os procedimentos de extração, seleção de variáveis e organização dos arquivos, permitindo a reprodução da análise.
+Devido ao tamanho do arquivo original, de aproximadamente **1,74 GB**, optou-se por realizar a extração e a redução inicial dos dados separadamente, evitando que a execução do notebook principal dependesse do download e processamento integral da base. Foram selecionadas 16 variáveis relevantes para a investigação, preservando os 3.933.955 registros originais.
+
+Por essa razão, o procedimento de preparação é **documentado neste README, com explicações e trechos de código**, em vez de ser reproduzido em um notebook auxiliar que exigiria o processamento de um arquivo de grande porte. Os dados resultantes estão disponíveis diretamente no repositório, permitindo que a análise principal seja executada de maneira mais simples e eficiente no Google Colab.
 
 ## Preparação dos dados
 
