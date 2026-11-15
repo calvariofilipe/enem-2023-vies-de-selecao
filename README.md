@@ -4,18 +4,6 @@ Este repositório reúne os dados preparados para o MVP de Análise Exploratóri
 
 O projeto investiga diferenças socioeconômicas entre os inscritos no ENEM 2023 e os participantes com notas disponíveis.
 
-## Origem dos dados
-
-Os dados foram obtidos dos **Microdados do ENEM 2023**, disponibilizados publicamente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP).
-
-**Fonte oficial:** https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
-
-**Arquivo original:** `MICRODADOS_ENEM_2023.csv`
-
-**Ano de referência:** 2023
-
-**Data de obtenção:** novembro de 2026.
-
 ## Preparação dos dados
 
 ### 1. Obtenção da base original
