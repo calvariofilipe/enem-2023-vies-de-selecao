@@ -43,11 +43,7 @@ Não selecionamos apenas participantes presentes, tampouco exigimos notas válid
 
 ### 3. Leitura e extração das colunas
 
-O processamento foi realizado em Python, utilizando a biblioteca nativa `csv`.
-
-O arquivo foi aberto com codificação `latin-1` e separador `;`, conforme a estrutura dos microdados originais.
-
-A extração foi realizada linha por linha, evitando carregar todo o CSV na memória.
+O processamento foi realizado em Python, utilizando a biblioteca nativa csv para ler o arquivo original, codificado em latin-1 e delimitado por ponto e vírgula (;). Os registros foram processados individualmente, selecionando apenas as 16 colunas de interesse, sem carregar toda a base na memória.
 
 O trecho abaixo reproduz a lógica central do processamento:
 
