@@ -120,10 +120,7 @@ O notebook principal utiliza `pandas` para carregar cada arquivo diretamente do 
 ```python
 import pandas as pd
 
-url_base = (
-    "https://raw.githubusercontent.com/"
-    "calvariofilipe/enem-2023-vies-de-selecao/main/dados"
-)
+url_base = "https://raw.githubusercontent.com/calvariofilipe/enem-2023-vies-de-selecao/main/dados"
 
 arquivos = [
     pd.read_csv(
