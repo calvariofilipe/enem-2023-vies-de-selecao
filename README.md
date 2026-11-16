@@ -35,9 +35,8 @@ Para reduzir o tamanho dos dados sem comprometer os objetivos da investigação,
 A seleção foi implementada a partir dos nomes das colunas do arquivo original:
 
 ```python
-COLUNAS = [ "NU_INSCRICAO", "TP_FAIXA_ETARIA", "TP_ESCOLA", "SG_UF_PROVA", "Q001", "Q002", "Q006", "TP_PRESENCA_CN",
-"TP_PRESENCA_CH", "TP_PRESENCA_LC", "TP_PRESENCA_MT", "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC","NU_NOTA_MT", "NU_NOTA_REDACAO"
-]
+COLUNAS = ["NU_INSCRICAO", "TP_FAIXA_ETARIA", "TP_ESCOLA", "SG_UF_PROVA", "Q001", "Q002", "Q006", "TP_PRESENCA_CN",
+"TP_PRESENCA_CH", "TP_PRESENCA_LC", "TP_PRESENCA_MT", "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC","NU_NOTA_MT", "NU_NOTA_REDACAO"]
 ```
 
 Não selecionamos apenas participantes presentes, tampouco exigimos notas válidas. **Todas as inscrições foram preservadas**, inclusive as de participantes ausentes ou eliminados.
@@ -55,15 +54,13 @@ O trecho abaixo reproduz a lógica central do processamento:
 ```python
 import csv
 
-with open("MICRODADOS_ENEM_2023.csv",
-          encoding="latin-1", newline="") as entrada:
+with open("MICRODADOS_ENEM_2023.csv",encoding="latin-1", newline="") as entrada:
     leitor = csv.reader(entrada, delimiter=";")
     cabecalho = next(leitor)
     posicoes = [cabecalho.index(coluna) for coluna in COLUNAS]
 
     for linha in leitor:
         selecionados = [linha[i] for i in posicoes]
-        # Os registros selecionados são gravados nos arquivos de saída
 ```
 
 No script utilizado, verificamos também se todas as colunas solicitadas estavam presentes no cabeçalho e se cada linha possuía a quantidade esperada de campos.
