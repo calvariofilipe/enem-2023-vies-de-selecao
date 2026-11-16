@@ -55,6 +55,7 @@ O trecho abaixo reproduz a lógica central do processamento:
 import csv
 
 with open("MICRODADOS_ENEM_2023.csv",encoding="latin-1", newline="") as entrada:
+
     leitor = csv.reader(entrada, delimiter=";")
     cabecalho = next(leitor)
     posicoes = [cabecalho.index(coluna) for coluna in COLUNAS]
