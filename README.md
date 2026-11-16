@@ -36,12 +36,8 @@ A seleção foi implementada a partir dos nomes das colunas do arquivo original:
 
 ```python
 COLUNAS = [
-    "NU_INSCRICAO", "TP_FAIXA_ETARIA", "TP_ESCOLA",
-    "SG_UF_PROVA", "Q001", "Q002", "Q006",
-    "TP_PRESENCA_CN", "TP_PRESENCA_CH",
-    "TP_PRESENCA_LC", "TP_PRESENCA_MT",
-    "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC",
-    "NU_NOTA_MT", "NU_NOTA_REDACAO"
+    "NU_INSCRICAO", "TP_FAIXA_ETARIA", "TP_ESCOLA", "SG_UF_PROVA", "Q001", "Q002", "Q006", "TP_PRESENCA_CN", "TP_PRESENCA_CH",
+    "TP_PRESENCA_LC", "TP_PRESENCA_MT", "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC","NU_NOTA_MT", "NU_NOTA_REDACAO"
 ]
 ```
 
@@ -62,14 +58,10 @@ import csv
 
 with open("MICRODADOS_ENEM_2023.csv",
           encoding="latin-1", newline="") as entrada:
-
     leitor = csv.reader(entrada, delimiter=";")
     cabecalho = next(leitor)
-
-    # Identificação das posições das 16 variáveis
     posicoes = [cabecalho.index(coluna) for coluna in COLUNAS]
 
-    # Extração das colunas de cada inscrição
     for linha in leitor:
         selecionados = [linha[i] for i in posicoes]
         # Os registros selecionados são gravados nos arquivos de saída
