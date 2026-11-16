@@ -32,13 +32,6 @@ Para reduzir o tamanho dos dados sem comprometer os objetivos da investigação,
 | Presença nas provas | `TP_PRESENCA_CN`, `TP_PRESENCA_CH`, `TP_PRESENCA_LC`, `TP_PRESENCA_MT` |
 | Notas | `NU_NOTA_CN`, `NU_NOTA_CH`, `NU_NOTA_LC`, `NU_NOTA_MT`, `NU_NOTA_REDACAO` |
 
-A seleção foi implementada a partir dos nomes das colunas do arquivo original:
-
-```python
-COLUNAS = ["NU_INSCRICAO", "TP_FAIXA_ETARIA", "TP_ESCOLA", "SG_UF_PROVA", "Q001", "Q002", "Q006", "TP_PRESENCA_CN",
-"TP_PRESENCA_CH", "TP_PRESENCA_LC", "TP_PRESENCA_MT", "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC","NU_NOTA_MT", "NU_NOTA_REDACAO"]
-```
-
 Não selecionamos apenas participantes presentes, tampouco exigimos notas válidas. **Todas as inscrições foram preservadas**, inclusive as de participantes ausentes ou eliminados.
 
 ### 3. Leitura e extração das colunas
@@ -49,6 +42,9 @@ O trecho abaixo reproduz a lógica central do processamento:
 
 ```python
 import csv
+
+COLUNAS = ["NU_INSCRICAO", "TP_FAIXA_ETARIA", "TP_ESCOLA", "SG_UF_PROVA", "Q001", "Q002", "Q006", "TP_PRESENCA_CN",
+"TP_PRESENCA_CH", "TP_PRESENCA_LC", "TP_PRESENCA_MT", "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC","NU_NOTA_MT", "NU_NOTA_REDACAO"]
 
 with open("MICRODADOS_ENEM_2023.csv",encoding="latin-1", newline="") as entrada:
 
