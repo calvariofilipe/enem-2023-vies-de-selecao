@@ -35,8 +35,8 @@ Para reduzir o tamanho dos dados sem comprometer os objetivos da investigação,
 A seleção foi implementada a partir dos nomes das colunas do arquivo original:
 
 ```python
-COLUNAS = [ "NU_INSCRICAO", "TP_FAIXA_ETARIA", "TP_ESCOLA", "SG_UF_PROVA", "Q001", "Q002", "Q006", "TP_PRESENCA_CN", "TP_PRESENCA_CH",
-    "TP_PRESENCA_LC", "TP_PRESENCA_MT", "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC","NU_NOTA_MT", "NU_NOTA_REDACAO"
+COLUNAS = [ "NU_INSCRICAO", "TP_FAIXA_ETARIA", "TP_ESCOLA", "SG_UF_PROVA", "Q001", "Q002", "Q006", "TP_PRESENCA_CN",
+"TP_PRESENCA_CH", "TP_PRESENCA_LC", "TP_PRESENCA_MT", "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC","NU_NOTA_MT", "NU_NOTA_REDACAO"
 ]
 ```
 
