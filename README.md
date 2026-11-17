@@ -16,7 +16,7 @@ O resultado foi dividido em 16 arquivos CSV menores, disponibilizados na pasta [
 
 - **`dados/`** — contém os 16 arquivos CSV preparados, de `enem_2023_parte_001.csv` a `enem_2023_parte_016.csv`.
 - **`ENEM_2023_Vies_de_Selecao.ipynb`** — notebook principal, contendo a análise exploratória, o pré-processamento e a discussão dos resultados.
-- **`Preparacao_Microdados_ENEM_2023.ipynb`** — notebook auxiliar, **de execução opcional**, que documenta o download dos microdados originais, a seleção das variáveis e a divisão dos registros em arquivos menores.
+- **`Preparacao_Microdados_ENEM_2023.ipynb`** — Notebook auxiliar, **de execução opcional**, que documenta o download dos microdados originais, a seleção das variáveis e a divisão dos registros em arquivos menores, já disponibilizados na pasta [`dados/`](https://github.com/calvariofilipe/enem-2023-vies-de-selecao/tree/main/dados) do repositório.
 
 ## Como executar
 
