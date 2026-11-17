@@ -15,7 +15,7 @@ O resultado foi dividido em 16 arquivos CSV menores, disponibilizados na pasta [
 ## Organização do repositório
 
 - **`dados/`** — contém os 16 arquivos CSV preparados, de `enem_2023_parte_001.csv` a `enem_2023_parte_016.csv`.
-- **`MVP_3.ipynb`** — notebook principal, contendo a análise exploratória, o pré-processamento e a discussão dos resultados.
+- **`ENEM_2023_Vies_de_Selecao.ipynb`** — notebook principal, contendo a análise exploratória, o pré-processamento e a discussão dos resultados.
 - **`Preparacao_Microdados_ENEM_2023.ipynb`** — notebook auxiliar que documenta o download dos microdados originais, a seleção das variáveis e a divisão dos registros em arquivos menores.
 
 ## Como executar
