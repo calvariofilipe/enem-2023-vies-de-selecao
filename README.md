@@ -22,7 +22,7 @@ O resultado foi dividido em 16 arquivos CSV menores, disponibilizados na pasta [
 
 Para reproduzir a análise, basta abrir o notebook principal no Google Colab e executar suas células na sequência. Os dados são carregados diretamente dos arquivos CSV disponíveis neste repositório, sem necessidade de baixar a base original do INEP.
 
-**Não é necessário executar o notebook auxiliar de preparação.** Ele foi incluído exclusivamente para documentar o procedimento utilizado e permitir sua reprodução, caso desejado. Sua execução exige o download e o processamento dos microdados originais, tornando essa etapa consideravelmente mais demorada e dispensável para a análise principal.
+**Não é necessário executar o notebook auxiliar de preparação.** Ele foi incluído exclusivamente para documentar o procedimento utilizado e permitir sua reprodução, caso desejado. 
 
 ## Fonte dos dados
 
